@@ -14,6 +14,7 @@ function LocalVideoMute(props) {
   const { setShowVideo, encounterData } = props
   const { defaultVideo } = encounterData
 
+
   useEffect(() => {
     if (!defaultVideo && !window.firstRenderDone){
       window.firstRenderDone = true
